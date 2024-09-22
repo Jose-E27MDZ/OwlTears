@@ -16,29 +16,42 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html"><img src="iconepage.svg" id="navbar_logo"> Owl Tears</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                        <div class="dropdown">
-                            <a class="nav-link" class="dropbtn" href="#services">La bière</a>
-                            <div class="dropdown-content">
-                            <a href="index.html">La bière à travers les âges</a>
-                            <a href="recette.html">La recette</a>
-                            <a href="analyse_bière.html">Analyser une bière</a>
-                            <a href="quizz.html">Quizz : la bière et l'environnement</a>
-                            </div>
-                          </div>
-                          <li class="nav-item"><a class="nav-link" href="alchimiste_rubrique.html">Les Alchimistes</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+          <div class="container px-4 px-lg-5">
+              <!-- Logo du site -->
+              <a class="navbar-brand" href="index.html">
+                  <img src="iconepage.svg" id="navbar_logo" alt="Logo"> Owl Tears
+              </a>
+              <!-- Bouton Hamburger -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  Menu <i class="fas fa-bars"></i>
+              </button>
+              <!-- Liens du menu -->
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ms-auto">
+                      <!-- Lien Accueil -->
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Accueil</a>
+                      </li>
+                      <!-- Dropdown pour "La bière" -->
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              La bière
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="lbatla.html">La bière à travers les âges</a></li>
+                              <li><a class="dropdown-item" href="recette.html">La recette</a></li>
+                              <li><a class="dropdown-item" href="analyse_bière.html">Analyser une bière</a></li>
+                              <li><a class="dropdown-item" href="quizz.html">Quizz : la bière et l'environnement</a></li>
+                          </ul>
+                      </li>
+                      <!-- Lien vers Les Alchimistes -->
+                      <li class="nav-item">
+                          <a class="nav-link" href="alchimiste_rubrique.html">Les Alchimistes</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
