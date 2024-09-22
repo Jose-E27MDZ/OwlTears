@@ -11404,6 +11404,34 @@ textarea.form-control-lg {
     display: inline-flex !important;
   }
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #fff; /* Couleur de fond du menu dropdown */
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    line-height: 2;
+}
+.dropdown-menu a {
+  color: #555;
+}
+.dropdown-menu a:hover {
+  color: #43c0ed;
+}
+.nav-link {
+    color: #000; /* Couleur des liens de la navbar */
+}
+
+.nav-link:hover {
+    color: #555;
+}
+  
   .d-print-none {
     display: none !important;
   }
